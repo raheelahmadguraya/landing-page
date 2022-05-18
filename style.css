@@ -77,17 +77,17 @@ a {
     height: 500px;
 }
 
-.content1 h2{
+.content1 h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
 }
 
-.content1 .illustrations{
+.content1 .illustrations {
     display: flex;
 }
 
-.content1 .illustration{
+.content1 .illustration {
     text-align: center;
     color: gray;
     width: 150px;
@@ -98,7 +98,7 @@ a {
     align-items: center;
 }
 
-.content1 img{
+.content1 img {
     width: 125px;
     height: 125px;
     border: 3px;
@@ -106,4 +106,85 @@ a {
     border-color: #3882f6;
     border-style: solid;
     border-radius: 20px;
+}
+
+.content2 {
+    background-color: lightgray;
+    padding: 10px 150px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.content2 .text {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+.text .quote {
+    font-size: 36px;
+    font-family: Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.text .author {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.content3 {
+    background-color: white;
+    padding: 10px 150px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.container {
+    background-color: #3882f6;
+    padding: 22.5px 150px;
+    border-radius: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .text {
+    padding: 15px;
+}
+
+.container .text h3, .container .text p {
+    margin: 0;
+    padding: 0;
+    color: #f9faf8;
+}
+
+.container button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 1px 25px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1.5px;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: rgb(200, 199, 199);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
 }
